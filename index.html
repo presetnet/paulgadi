@@ -3,54 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>$Gadi On Sol</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url('URL_TO_YOUR_BACKGROUND_IMAGE');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            color: white;
-            text-align: center;
-        }
-        .container {
-            background-color: rgba(0, 0, 0, 0.6);
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .logo-container {
-            margin-top: 20px;
-        }
-        .logo-container a {
-            margin: 0 10px;
-            display: inline-block;
-        }
-        .logo-container img {
-            width: 50px;
-            height: 50px;
-        }
-    </style>
+    <title>$Gadi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Welcome to $Gadi</h1>
-        <p>Enter the Matrix: CRUzah1Pr7VfqrXnEiCfPy95tKiLeFT2kUA2Zrjpump </p>
-        <div class="logo-container">
-            <a href="URL_TO_DEXTOOLS_LINK" target="_blank">
-                <img src="URL_TO_DEXTOOLS_LOGO" alt="DEXTools">
-            </a>
-            <a href="URL_TO_TWITTER_LINK" target="_blank">
-                <img src="URL_TO_TWITTER_LOGO" alt="Twitter">
-            </a>
-            <a href="URL_TO_TELEGRAM_LINK" target="_blank">
-                <img src="URL_TO_TELEGRAM_LOGO" alt="Telegram">
-            </a>
-        </div>
+        <p>Ca: CRUzah1Pr7VfqrXnEiCfPy95tKiLeFT2kUA2Zrjpump </p>
+    </div>
+    <div class="logo-container">
+        <a href="https://dexscreener.com/solana/9eegvl8bmegbxso8xdl3dhf859czgxlkmms1vde8hdqw" target="_blank">
+            <img src="https://cdn.worldvectorlogo.com/logos/dextools.svg">
+        </a>
+        <a href="https://x.com/GadiOnSol" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553" alt="Twitter">
+        </a>
+        <a href="t.me/gadicommunity" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/512px-Telegram_2019_Logo.svg.png?20231105064641" alt="Telegram">
+        </a>
     </div>
 </body>
 </html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('URL_TO_YOUR_BACKGROUND_IMAGE');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.logo-container img {
+    width: 50px;
+    height: 50px;
+}
